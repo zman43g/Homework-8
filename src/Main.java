@@ -39,8 +39,9 @@ public class Main {
         }
         System.out.println("Задача 9");
         int moneyInBank = 0;
+        int monthlyIncome = 29000;
         for (int i = 1; i < 13; i++) {
-            moneyInBank = moneyInBank / 100 + 29000 + moneyInBank;
+            moneyInBank = (moneyInBank / 100) + monthlyIncome + moneyInBank;
             System.out.println("Месяц " + i + " сумма накоплений равна " + moneyInBank + " рублей");
         }
         System.out.println("Задача 10");
